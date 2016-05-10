@@ -13,9 +13,7 @@ input {
 }
 
 input.comment {
-	float: left;
 	width: 55%;
-	margin-left: 25px;
 	border-radius: 7px;
 	font-family: "Lato", sans-serif;
 	font-weight: 200;
@@ -224,26 +222,6 @@ a:hover {
 	margin-bottom: 10px;
 }
 
-.paperclip {
-	background-image: url('../JointheTable/images/paperclip.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.picture {
-	background-image: url('../JointheTable/images/picture.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.video {
-	background-image: url('../JointheTable/images/video.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-}
 
 .icon {
 	height: 30px;

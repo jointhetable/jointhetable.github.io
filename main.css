@@ -197,7 +197,7 @@ a:hover {
 }
 
 .user {
-	background-image: url('../JointheTable/images/user.png');
+	background-image: url('../images/user.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -211,7 +211,7 @@ a:hover {
 }
 
 .user-profile {
-	background-image: url('../JointheTable/images/owl-teacher.jpg');
+	background-image: url('../images/owl-teacher.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

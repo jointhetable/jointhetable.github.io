@@ -1,0 +1,259 @@
+body {
+	margin:0px;
+	background: #B7E0D6;
+}
+
+input {
+	height: 40px;
+	width: 40%;
+	margin-top: 15px;
+	float: left;
+	margin-left: 3.33%;
+	border-radius: 7px;
+}
+
+input.comment {
+	float: left;
+	width: 55%;
+	margin-left: 25px;
+	border-radius: 7px;
+	font-family: "Lato", sans-serif;
+	font-weight: 200;
+    font-size: 18px;
+}
+
+input.joiner {
+	font-family: "Lato", sans-serif;
+	font-weight: 200;
+    font-size: 18px;
+}
+
+b {
+	font-weight: 600;
+}
+
+h1 {
+	font-family: "Pacifico", sans-serif;
+	color: #43524E;
+	text-align: center;
+	font-size: 3.5em;
+	font-weight: lighter;
+}
+
+h1.small {
+	font-size: 2.7em;
+}
+
+h1.smaller {
+	font-size: 2em;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: "Lato", sans-serif;
+	color: #231F20;
+	font-weight: 200;
+}
+
+h2.left {
+	text-align: left;
+	color: #43524E;
+	font-size: larger;
+	line-height: 1.4em;
+}
+
+h2.forum {
+	font-family: "Lato", sans-serif;
+	font-weight: 200;
+    font-size: 18px;	
+}
+
+h2.q {
+	color: white;
+	font-weight: 300;
+}
+
+h3 {
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+	color: #231F20;
+	-webkit-transition: color 0.5s ease;
+}
+
+a.heading {
+	text-decoration: none;
+	color: #43524E;
+	-webkit-transition: none;
+}
+
+a:hover {
+	color: #999999;
+}
+
+.whole {
+	background-color: #B7E0D6;
+	width: auto;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.nav {
+	background-color: #D1EBE6;
+	height: 75px;
+}
+
+.navbar {
+	width: 1%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.join {
+	background-color: #A7A9AC;
+	height: 75px;
+	width: 400px;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 15px;
+}
+
+.join-button {
+	background-color: #B7E0D6;
+	height: 45px;
+	width: 180px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+.join button {
+	cursor: pointer;
+	border:0;
+}
+
+.movie {
+	padding-top: 45px;
+	margin: auto;
+}
+
+.faq-box {
+	margin: auto;
+	width: 75%;
+}
+
+.post-box {
+	background-color: #A7A9AC;
+	height: 100px;
+	width: 50%;
+	max-width: 550px;
+	margin: 0 auto;
+	margin-top: 60px;
+	border-radius: 15px;
+}
+
+.post-box button {
+	cursor: pointer;
+	border:0;
+}
+
+.post-button {
+	background-color: #B7E0D6;
+	height: 45px;
+	width: 32%;
+	border-radius: 5px;
+	float: left;
+	margin-left: 3.33%;
+	margin-right: 3.33%;
+	margin-top: 15px;
+}
+
+#response-container {
+	width: 50%;
+	margin: 0 auto;
+	max-width: 550px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.response {
+	background: white;
+	border-radius: 6px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+	font-family: "Lato", sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 65%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.user {
+	background-image: url('../JointheTable/images/user.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.user-profile {
+	background-image: url('../JointheTable/images/owl-teacher.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.paperclip {
+	background-image: url('../JointheTable/images/paperclip.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture {
+	background-image: url('../JointheTable/images/picture.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.video {
+	background-image: url('../JointheTable/images/video.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon {
+	height: 30px;
+	width: 45px;
+	display:table-cell;
+	margin: 0 auto;
+}
+
+.icon-bar {
+	float: left;
+	margin-top: 15px;
+	display: table;
+}

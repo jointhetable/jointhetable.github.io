@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+	<div class="whole">
+		<h1> <a href="index.html"> Join the Table </a> </h1>
+		<div class="nav">
+			<div class="navbar">
+				<h2> <a href="about.html"> about </a></h2>
+			</div>
+
+			<div class="navbar">
+				<h2> <a href="forum.html"> <b> forum </b> </a> </h2>
+			</div>
+
+			<div class="navbar">
+				<h2> 
+					<a href="mailto:conniekliu95@gmail.com?Subject=Hello!"> contact </a>
+				</h2>
+			</div>
+		</div>
+
+		<div class="post-box">
+			<input type="text" class="comment" id='post-comment' placeholder="Post a question or comment">
+				<button type="button" class="post-button" id="post-popup-button"><h1 class="smaller"> Post </h1></button>
+		</div>
+		<div id="response-container">
+			<div id='response-dummy'>
+		</div>
+			<div class="user-profile">
+			</div>
+			<div class="response">
+				<h2 class="forum"> Hello! I am in my first week of piloting a Harkness classroom and it has been great! My class is currently reading about Ancient Greek History and the discussions that my students are having are so insightful. My students have truly exceeded my expectations and are really able to shine in this new Harkness style of learning. I would highly recommend reading Plato's Republic with your students. My students thoroughly enjoyed it and had some very intellectually stimulating conversations about the principles of justice that Plato presents in the book. </h2>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type = "text/javascript">
+	$('#post-popup-button').click(function() {
+		var response = $('#post-comment').val();
+		if (response) {
+ 			$('#response-dummy').after( '<div class="user"></div> <div class="response"><h2 class="forum">' + response + '</h2></div>' );
+ 			$('#post-comment').val('');
+ 		}
+	});
+</script>
